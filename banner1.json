@@ -1,0 +1,17 @@
+[
+	{
+		"category": "women",
+		"imgFile": "banner-01",
+		"info": "summer 2021"
+	},
+	{
+		"category": "men",
+		"imgFile": "banner-02",
+		"info": "summer 2021"
+	},
+	{
+		"category": "Accessories",
+		"imgFile": "banner-03",
+		"info": "only Add-On"
+	}
+]

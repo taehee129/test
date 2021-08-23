@@ -1,0 +1,20 @@
+[
+	{
+		"imgFile": "product-01",
+		"category": "women",
+		"item": "Ruffle Shirt",
+		"price": "16000"
+	},
+	{
+		"imgFile": "product-02",
+		"category": "women",
+		"item": "Herschel supply",
+		"price": "30000"
+	},
+	{
+		"imgFile": "product-03",
+		"category": "men",
+		"item": "Check Trouser",
+		"price": "16000"
+	}
+]

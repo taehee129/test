@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>로그인</title>
+
+<style type="text/css">
+@import url("login.css");
+</style>
+
+<script type="text/javascript" src="login.js"></script>
+
+</head>
+<body>
+	<div id="wrapper">
+		<header> </header>
+		<div id="container">
+			<div id="login">
+				<h3>LOGIN</h3>
+				<p>로그인 하시면 다양하고 특별한 혜택을 이용할 수 있습니다.</p>
+
+				<div class="login_area">
+					<form class="put_area">
+						<div class="id_area">
+							<!-- id pw 엔터 누르면 login_ck함수 실행 -->
+							<input id="uid" type="text" placeholder="ID"
+								onkeydown="if( event.keyCode == 13 ){login_ck();}">
+						</div>
+						<div class="pw_area">
+							<input id="upw" type="password" placeholder="PW"
+								onkeydown="if( event.keyCode == 13 ){login_ck();}">
+						</div>
+					</form>
+					<div class="find">
+						<ul>
+				
+							<li class="sign_up"><a href="sign_up.html">회원가입</a></li>
+						</ul>
+					</div>
+					<div class="login_button" onclick="login_ck()">
+						<p>
+							<a href="#">로그인</a>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div>
+			<footer>
+				<div>
+					<ul>
+						<li class="first_copy">
+							<p>
+								copyright&copy;&nbsp;<b>Add-on쇼핑몰이름</b>&nbsp;All right reserved
+							</p>
+						</li>
+						<li class="last_copy"><a href="#">나중에 구현할 기능</a></li>
+					</ul>
+				</div>
+			</footer>
+		</div>
+	</div>
+
+
+</body>
+</html>
